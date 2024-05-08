@@ -1,8 +1,8 @@
+import styles from './styles.module.css'
 
-
-import function Main() {
+export function Main() {
     return (
-        <main>
+        <main className={styles.container}>
             
         </main>
     )

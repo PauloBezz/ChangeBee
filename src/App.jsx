@@ -1,11 +1,11 @@
-import Routes from './routes/routes'
-import './App.css'
+import Router from "./routes/routes";
 
-export default function App() {
-
+function App() {
   return (
     <>
-      <Routes/>
+      <Router />
     </>
   );
 }
+
+export default App;
