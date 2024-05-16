@@ -3,14 +3,15 @@ import { Truck } from "./../../assets/Button";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
+
 export function Header() {
   return (
     <header className={styles.header}>
     <div className={styles.inline}>
-      <img src={logo} alt="logo" />
+      <Link className={styles.logo}><img src={logo} alt="logo" /></Link>
       
         <nav className={styles.nav}>
-          <Link className={styles.link} to={""}>
+          <Link className={styles.link} to={{}}>
             Vantagens
           </Link>
           <Link className={styles.link} to={""}>

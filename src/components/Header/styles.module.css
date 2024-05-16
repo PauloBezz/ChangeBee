@@ -12,15 +12,23 @@
   display: flex;
   flex-direction: column;
 
-  height: 81px;
+  height: 80px;
   background-color: #4a4a4a;
+  padding-top: 10px;
+  justify-content: center;
 }
 
 .inline{
     align-items: center;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding-left: 50px;
 }
 
 .nav {
@@ -50,4 +58,5 @@
 .button{
     display: flex;
     align-self: end;
+    padding-right: 70px;
 }
