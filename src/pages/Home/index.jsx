@@ -8,16 +8,16 @@ export function Home() {
     return (
         <>
             <Header />
-            <Main>
+            <Main title={'Sua mudança é nosso Negócio!'} subtitle={'Desde 1991, estamos carregados de mudança e recomeço pelo Brasil. Conhecemos o peso da dedicação por força de vontade, siga conosco.'} >
 
                 <CardSmall />
                 <CardSmall />
                 <CardSmall />
                 <CardSmall />
-                <CardPrice/> 
-                <CardPrice/> 
-                <CardPrice/> 
-            </Main>
+                <CardPrice />
+                <CardPrice />
+                <CardPrice />
+            </Main >
             <Footer />
         </>
     )

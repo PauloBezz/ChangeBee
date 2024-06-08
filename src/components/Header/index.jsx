@@ -1,17 +1,21 @@
 import logo from "./../../assets/logo.svg";
-import { Truck } from "./../../assets/Button";
+import { Truck, TruckBlack } from "./../../assets/Button";
 import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
+import { useState } from "react";
 
 
 export function Header() {
+  const [hovered, setHovered] = useState(false);
+
+
   return (
     <header className={styles.header}>
-    <div className={styles.inline}>
-      <Link className={styles.logo}><img src={logo} alt="logo" /></Link>
-      
+      <div className={styles.inline}>
+        <Link className={styles.logo} to={"self"} ><img src={logo} alt="logo" /></Link>
+
         <nav className={styles.nav}>
-          <Link className={styles.link} to={{}}>
+          <Link className={styles.link} to={""}>
             Vantagens
           </Link>
           <Link className={styles.link} to={""}>
@@ -28,13 +32,13 @@ export function Header() {
           </Link>
         </nav>
 
-      
-        <Link className={styles.button}>
-          <Truck />
+
+        <Link className={styles.button} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+          {hovered ? <TruckBlack /> : <Truck />}
         </Link>
-        </div>
-      
-        <div className={styles.line}></div>
+      </div>
+
+      <div className={styles.line}></div>
     </header>
   );
 }
