@@ -3,8 +3,17 @@ import styles from "./styles.module.css";
 export function Main(props) {
   return (
     <main className={styles.container}>
-      <h1 className={styles.title}>{props.title}</h1>
-      <p className={styles.subtitle}>{props.subtitle}</p>
+      <div className={styles.image}></div>
+      <div className={styles.texts}>
+        <div className={styles.title}>
+          <h1 className={styles.white}>{props.titleWhite}</h1>
+          <h1 className={styles.title}>{props.titleYellow}</h1>
+          <h1 className={styles.white}>{props.tWhiteSecond}</h1>
+          <h1 className={styles.white}>{props.tWhiteThree}</h1>
+          <h1 className={styles.title}>{props.tYellowSecond}</h1>
+        </div>
+        <p className={styles.subtitle}>{props.subtitle}</p>
+      </div>
     </main>
   );
 }

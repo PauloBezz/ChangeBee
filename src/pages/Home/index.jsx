@@ -8,16 +8,14 @@ export function Home() {
     return (
         <>
             <Header />
-            <Main title={'Sua mudança é nosso Negócio!'} subtitle={'Desde 1991, estamos carregados de mudança e recomeço pelo Brasil. Conhecemos o peso da dedicação por força de vontade, siga conosco.'} >
-
-                <CardSmall />
-                <CardSmall />
-                <CardSmall />
-                <CardSmall />
-                <CardPrice />
-                <CardPrice />
-                <CardPrice />
-            </Main >
+            <Main titleWhite={'Sua'} titleYellow={'mudança'} tWhiteSecond={'é'} tWhiteThree={'nosso'} tYellowSecond={'Negócio!'} subtitle={'Desde 1991, estamos carregados de mudança e recomeço pelo Brasil. Conhecemos o peso da dedicação por força de vontade, siga conosco.'} />
+            <CardSmall />
+            <CardSmall />
+            <CardSmall />
+            <CardSmall />
+            <CardPrice />
+            <CardPrice />
+            <CardPrice />
             <Footer />
         </>
     )
