@@ -6,8 +6,16 @@
     background-color: #FFB800;
     border: 1px black solid;
     border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .text{
     font-size: 12px;
+}
+
+.icon{
+    width: 99px;
+    height: 99px;
 }
