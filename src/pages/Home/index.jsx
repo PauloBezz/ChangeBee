@@ -11,9 +11,7 @@ export function Home() {
             <Header />
             <Main titleWhite={'Sua'} titleYellow={'mudança'} tWhiteSecond={'é'} tWhiteThree={'nosso'} tYellowSecond={'Negócio!'} subtitle={'Desde 1991, estamos carregados de mudança e recomeço pelo Brasil. Conhecemos o peso da dedicação por força de vontade, siga conosco.'} />
             <ContentSmall/>
-            <CardPrice />
-            <CardPrice />
-            <CardPrice />
+
             <Footer />
         </>
     )
