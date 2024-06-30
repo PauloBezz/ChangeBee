@@ -1,21 +1,27 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 200px;
     height: 200px;
     background-color: #FFB800;
     border: 1px black solid;
     border-radius: 15px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    padding: 30px;
+    gap: 22px;
 }
 
 .text{
     font-size: 12px;
+    font-family: "Spicy Rice";
 }
 
 .icon{
-    width: 99px;
-    height: 99px;
+    display: flex;
+    width: 90px;
+    height: 90px;
 }
