@@ -4,7 +4,6 @@ export function CardSmall({ image, description }) {
 
     return (
         <div className={styles.container}>
-
             <div className={styles.icon}>
                 {image}
             </div>

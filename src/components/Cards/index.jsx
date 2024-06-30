@@ -1,41 +1,47 @@
-import Shield from "./assets/images/svg/shield.svg"
-import speed from "./assets/images/svg/speed.svg"
-import squad from "./assets/images/svg/squad.svg"
-import quality from "./assets/images/svg/quality.svg"
 import { CardSmall } from "./CardSmall"
-import { Logo } from "../../assets/Logo"
+import { Quality } from './assets/images/svg/Quality'
+import { Shield } from './assets/images/svg/Shield'
+import { Speed } from "./assets/images/svg/Speed"
+import { Squad } from "./assets/images/svg/Squad"
+import styles from './styles.module.css'
 
 export const SmallInfo = [
     {
-        image: <Logo/>,
+        image: <Shield />,
         description: 'Seguro contra roubo e com rastreio remoto'
     },
     {
-        image: '',
-        description: 'Seguro contra roubo e com rastreio remoto'
+        image: <Speed />,
+        description: 'Tempo de carga e entrega com eficiência e rápidez'
     },
     {
-        image: '',
-        description: 'Seguro contra roubo e com rastreio remoto'
+        image: <Squad />,
+        description: 'Equipe cautelosa e unida pela sua mudança'
     },
     {
-        image: '',
-        description: 'Seguro contra roubo e com rastreio remoto'
+        image: <Quality />,
+        description: 'Qualidade nas caixas para o carregamento'
     }
 
 ]
 
 export default function ContentSmall() {
     return (
-        <section>
-            {SmallInfo.map((info, key) => {
-                return (
-                    <CardSmall
-                        key={key}
-                        image={info.image}
-                        description={info.description} />
-                )
-            })}
+        <section className={styles.container}>
+            <article className={styles.cards}>
+                {SmallInfo.map((info, key) => {
+                    return (
+                        <CardSmall
+                            key={key}
+                            image={info.image}
+                            description={info.description} />
+                    )
+                })}
+            </article>
+
+            <article>
+
+            </article>
         </section>
     )
 }
