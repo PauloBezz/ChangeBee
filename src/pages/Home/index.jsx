@@ -1,7 +1,7 @@
 import { Header } from './../../components/Header';
 import { Main } from './../../components/Main';
 import { Footer } from './../../components/Footer';
-import { CardPrice } from './../../components/Cards/CardsPrice';
+import { CardPrice } from './../../components/Cards/CardPrice';
 import ContentSmall from '../../components/Cards';
 
 
