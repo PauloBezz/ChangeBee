@@ -1,9 +1,10 @@
+import styles from './styles.module.css'
 import { CardSmall } from "./CardSmall"
 import { Quality } from './assets/images/svg/Quality'
 import { Shield } from './assets/images/svg/Shield'
 import { Speed } from "./assets/images/svg/Speed"
 import { Squad } from "./assets/images/svg/Squad"
-import styles from './styles.module.css'
+import Banner from "../Banner"
 
 export const SmallInfo = [
     {
@@ -25,6 +26,7 @@ export const SmallInfo = [
 
 ]
 
+
 export default function ContentSmall() {
     return (
         <section className={styles.container}>
@@ -39,8 +41,8 @@ export default function ContentSmall() {
                 })}
             </article>
 
-            <article>
-
+            <article className={styles.banner}>
+                <Banner />
             </article>
         </section>
     )

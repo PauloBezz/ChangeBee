@@ -6,21 +6,36 @@
     width: 200px;
     height: 200px;
     background-color: #FFB800;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 15px;
     align-items: center;
     justify-content: space-between;
     text-align: center;
     padding: 30px;
     gap: 22px;
+    transition: 0.75s;
 }
 
-.text{
+.container:hover {
+    background-color: #000;
+    color: white;
+    border: 2px solid #FFB800;
+
+    .icon {
+        background-color: aliceblue;
+        border-radius: 5px;
+        padding: 8px;
+        align-items: center;
+    }
+
+}
+
+.text {
     font-size: 12px;
     font-family: "Spicy Rice";
 }
 
-.icon{
+.icon {
     display: flex;
     width: 90px;
     height: 90px;
