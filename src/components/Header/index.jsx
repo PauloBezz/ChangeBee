@@ -1,7 +1,7 @@
+import styles from "./styles.module.css";
 import logo from "./../../assets/logo.svg";
 import { Truck, TruckBlack } from "./../../assets/Button";
 import { Link } from "react-router-dom";
-import styles from "./styles.module.css";
 import { useState } from "react";
 
 
