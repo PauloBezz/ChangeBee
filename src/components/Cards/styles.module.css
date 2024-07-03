@@ -1,17 +1,25 @@
-.container{
+.container {
     display: flex;
     margin: auto;
-    width: 90%;
-    padding: 50px;
+    width: 95%;
+    padding: 58px 38px;
     background-color: transparent;
     border: 1px solid #FEB702;
     border-radius: 15px;
     margin-top: 25px;
+    justify-content: space-around;
+    gap: 35px;
 }
 
-.cards{
+.cards {
     display: flex;
-    width: 50%;
+    width: 40%;
     flex-wrap: wrap;
-    gap: 34px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.banner {
+    display: flex;
+    width: 55%;
 }

@@ -12,7 +12,7 @@ export function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.inline}>
-        <Link className={styles.logo} to={"self"} ><img src={logo} alt="logo" /></Link>
+        <Link className={styles.logo} to={""} ><img src={logo} alt="logo" /></Link>
 
         <nav className={styles.nav}>
           <Link className={styles.link} to={""}>
