@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+
 .container {
     display: flex;
     flex-direction: column;
-    height: 121px;
+    height: fit-content;
     background-color: #FDB602;
-
+    
     align-items: center;
-    justify-content: space-between;
     margin-top: 12px;
     margin-bottom: 12px;
     text-decoration: none;
     padding: 16px 0px;
+    font-family: "Cambo";
+    gap: 24px;
 }
 
 .links {
@@ -35,10 +38,40 @@
 .text {
     display: flex;
     width: 100%;
-    padding: 0px 24px;
     justify-content: space-between;
+    padding: 0px 24px;
+    gap: 20px;
 }
 
 .text>p {
     font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    .links {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .links>a {
+        font-size: 10px;
+    }
+
+    .icons {
+        width: 130px;
+    }
+
+    .icons>a>svg {
+        width: 30px;
+    }
+
+    .text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text>p {
+        font-size: 10px;
+    }
 }
