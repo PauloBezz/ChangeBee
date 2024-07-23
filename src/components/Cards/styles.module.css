@@ -7,8 +7,9 @@
     border: 1px solid #FEB702;
     border-radius: 15px;
     margin-top: 25px;
-    justify-content: space-around;
+
     gap: 35px;
+    flex-wrap:wrap ;
 }
 
 .cards {
@@ -22,4 +23,21 @@
 .banner {
     display: flex;
     width: 55%;
+}
+
+@media screen and (max-width:1100px) {
+    .container{
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 29px 18px;
+
+    }
+
+    .cards{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    
 }
