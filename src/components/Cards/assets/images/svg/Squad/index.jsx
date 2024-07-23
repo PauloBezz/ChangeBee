@@ -6,8 +6,8 @@ export function Squad() {
             version="1.1"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 496 496" xml:space="preserve">
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 496 496" xmlSpace="preserve">
             <g>
                 <g>
                     <path d="M496,286.216c0-28.064-15.984-52.624-40-64.48V96c0-52.936-43.064-96-96-96c-52.936,0-96,43.064-96,96v9.456
@@ -58,8 +58,8 @@ export function SquadWhite() {
             version="1.1"
             id="Layer_1"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 0 496 496" xml:space="preserve">
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 496 496" xmlSpace="preserve">
             <g>
                 <g>
                     <path d="M496,286.216c0-28.064-15.984-52.624-40-64.48V96c0-52.936-43.064-96-96-96c-52.936,0-96,43.064-96,96v9.456
