@@ -3,6 +3,7 @@ import { Main } from './../../components/Main';
 import { Footer } from './../../components/Footer';
 import ContentSmall from '../../components/Cards';
 import Costumer from '../../components/Costumer';
+import Video from '../../components/Video';
 
 
 export function Home() {
@@ -10,8 +11,9 @@ export function Home() {
         <>
             <Header />
             <Main titleWhite={'Sua'} titleYellow={'mudança'} tWhiteSecond={'é'} tWhiteThree={'nosso'} tYellowSecond={'Negócio!'} subtitle={'Desde 1991, estamos carregados de mudança e recomeço pelo Brasil. Conhecemos o peso da dedicação por força de vontade, siga conosco.'} />
-            <ContentSmall/>
-            <Costumer/>
+            <ContentSmall />
+            <Costumer />
+            <Video title={'Conheça nosso sonho da ChangeBee'} description={'Assista para saber mais quem somos!'} />
             <Footer />
         </>
     )
