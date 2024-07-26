@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 134px;
+}
+
+.title{
+    font-family: 'Bree';
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.video{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+    padding: 2px;
+}
+
+.video > video{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #FFB800;
+}
+
+.description{
+    font-family: 'PT Sans';
+    font-size: 25px;
+    font-style: italic;
+}
+
