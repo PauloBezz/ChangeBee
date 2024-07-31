@@ -4,6 +4,9 @@ import { Quality } from './assets/images/svg/Quality'
 import { Shield } from './assets/images/svg/Shield'
 import { Speed } from "./assets/images/svg/Speed"
 import { Squad } from "./assets/images/svg/Squad"
+import TrYellow from './assets/images/svg/TruckYellow'
+import TrRed from './assets/images/svg/TruckRed'
+import TrWine from './assets/images/svg/TruckWine'
 import Banner from "../Banner"
 import { CardPrice } from './CardPrice'
 
@@ -29,31 +32,28 @@ export const SmallInfo = [
 
 export const PriceInfo = [
     {
-        title: 'Pacote para transporte seco',
-        image: '0',
+        title: 'Carga seca',
+        image: <TrYellow />,
         info: 'Equipe de apoio',
         infoTwo: 'Segundo Motorista',
-        infoThree: 'Apenas R$9,99/Km',
-        infoFour: '',
-        price: '1599,90',
+        infoThree: 'Apenas R$ 9,99/Km',
+        price: 'R$ 1599,90',
     },
     {
-        title: 'Pacote para transporte seco',
-        image: '0',
+        title: 'Grande Mudança',
+        image: <TrRed />,
         info: 'Equipe de apoio',
-        infoTwo: 'Segundo Motorista',
-        infoThree: 'Apenas R$9,99/Km',
-        infoFour: '',
-        price: '1599,90',
+        infoTwo: 'Segundo caminhão',
+        infoThree: 'Segundo motorista',
+        infoFour: 'Apenas R$ 8,99/km',
+        price: 'R$ 2999,90',
     },
     {
-        title: 'Pacote para transporte seco',
-        image: '0',
+        title: 'Mudança comum',
+        image: <TrWine />,
         info: 'Equipe de apoio',
-        infoTwo: 'Segundo Motorista',
-        infoThree: 'Apenas R$9,99/Km',
-        infoFour: '',
-        price: '1599,90',
+        infoTwo: 'Apenas R$ 6,99/Km',
+        price: 'R$ 999,90',
     }
 ]
 
@@ -81,8 +81,8 @@ export default function ContentSmall() {
 
 export function ContentPrice() {
     return (
-        <section className={styles.container}>
-            <article className={styles.prices}>
+        <section className={styles.containerPrice}>
+            <article className={styles.cardsPrice}>
                 {PriceInfo.map((index, key) => {
                     return (
                         <CardPrice
@@ -97,7 +97,6 @@ export function ContentPrice() {
                         />
                     )
                 })}
-
             </article>
         </section>
     )
