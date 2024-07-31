@@ -41,3 +41,27 @@
     }
     
 }
+
+
+/*   ContentPrice */
+
+
+
+.containerPrice{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cardsPrice{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    background-color: #FEB702;
+    border-radius: 20px;
+    background-color: #554F4F;
+    border: 2px solid black;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
