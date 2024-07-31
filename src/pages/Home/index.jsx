@@ -1,7 +1,7 @@
 import { Header } from './../../components/Header';
 import { Main } from './../../components/Main';
 import { Footer } from './../../components/Footer';
-import ContentSmall from '../../components/Cards';
+import ContentSmall, { ContentPrice } from '../../components/Cards';
 import Costumer from '../../components/Costumer';
 import Video from '../../components/Video';
 import Partner from '../../components/Partner';
@@ -15,6 +15,7 @@ export function Home() {
             <ContentSmall />
             <Costumer />
             <Video title={'Conheça nosso sonho da ChangeBee'} description={'Assista para saber mais quem somos!'} />
+            <ContentPrice/>
             <Partner/>
             <Footer />
         </>
