@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.container{
+    width: fit-content;
+    height: 663px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding: 38px 15px 20px 15px;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 25px;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 37px;
+}
+
+.image{
+    display: 400px;
+    height: 225px;
+    margin-bottom: 16px;
+}
+
+.list{
+    font-size: 25px;
+    margin-bottom: 25px;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-size: 25px;
+}
+
+.price{
+    display: flex;
+    margin-top: 24px;
+    font-size: 40px;
+    font-family: 'Bree serif';
+    color: #595047;
+
+}
+
+.btnContract{
+    display: flex;
+    width: 305px;
+    height: 61px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBA409;
+    border-radius: 10px;
+
+    color: white;
+    font-family: 'PT Sans';
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 27px;
+}
