@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-.container{
+.carousel {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -14,14 +14,50 @@
     margin-top: 25px;
 }
 
-.buttons{
+.contentNone{
+    display: none;
+}
+
+.content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+    text-align: center;
+    gap: 30px;
+}
+
+.text > h1 {
+    font-family: 'Bree Serif';
+    font-size: 40px;
+}
+
+.text > p{
+    font-family: 'PT Sans';
+    font-size: 25px;
+}
+
+.image > img{
+    width: 100%;
+    display: flex;
+}
+
+.buttons {
     display: flex;
     width: 90%;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.button{
+.button {
     width: 43px;
     height: 63px;
     display: flex;
@@ -32,10 +68,15 @@
     background-color: transparent;
 }
 
-.container :first-child {
+.button:hover {
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
+
+.carousel :first-child {
     border-left-color: #FFB800;
 }
 
-.container :last-child {
+.carousel :last-child {
     border-right-color: #FFB800;
 }

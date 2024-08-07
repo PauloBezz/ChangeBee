@@ -1,53 +1,36 @@
 import styles from './styles.module.css'
 import ArrowL from './assets/img/svg/ArrowLeft'
 import ArrowR from './assets/img/svg/ArrowRight'
-import Client from './Client'
-import ImageClient from './assets/img/svg/ImageClient'
 
-export const InfoCostumer = [
-    {
-        id: 1,
-        title: 'Evandro Reis - Jaguariúna',
-        description: 'Empresa eficiente e respeitada, não tive problemas na viagem e existe um cuidado com minha mudança. Obrigado ChangeBee.',
-        image: <ImageClient />,
-    },
-    // {
-    //     id: 2,
-    //     title: 'Maria Guedes - Terezina',
-    //     description: 'Impressionada com essa empresa, tem meu voto de confiança e o cuidado com minhs coisas foi excelente Obrigado ChangeBee.',
-    //     image: '',
-    // },
-    // {
-    //     id: 3,
-    //     title: '',
-    //     description: ' Obrigado ChangeBee.',
-    //     image: '',
-    // },
+import { client } from '../../data/carousel.json'
+import { useState } from 'react'
 
-]
-
-export default function ContentCostumer() {
+export const ContentCostumer = ({ data }) => {
+    const { slide, setSlide } = useState(0);
 
 
     return (
-        <section className={styles.container}>
-            {InfoCostumer.map((info) => {
-                const { id, title, description, image } = info;
+        <section className={styles.carousel}>
+            {data.map((element, index) => {
                 return (
-                    <Client
-                        key={id}
-                        title={title}
-                        description={description}
-                        image={image}
-                    />
+                    <>
+                        <div key={index} className={slide === index ? styles.contentNone : styles.content}>
+                            <article className={styles.text}>
+                                <h1>{element.title}</h1>
+                                <p>{element.description}</p>
+                            </article>
+                            <article className={styles.image}>
+                                <img src={element.image} alt="" />
+                            </article>
+                        </div>
+                        <div className={styles.buttons}>
+                            <button className={styles.button} key={index}><ArrowL /></button>
+                            <button className={styles.button}><ArrowR /></button>
+                        </div>
+                    </>
+
                 );
             })}
-
-            <div className={styles.buttons}>
-                <button className={styles.button}><ArrowL /></button>
-                <button className={styles.button}><ArrowR /></button>
-
-            </div>
         </section>
     )
 }
