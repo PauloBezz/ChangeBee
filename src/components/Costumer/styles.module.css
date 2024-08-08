@@ -2,7 +2,7 @@
 
 .carousel {
     display: flex;
-    flex-direction: column;
+    position: relative;
     width: 100%;
     align-items: center;
     justify-content: space-around;
@@ -10,7 +10,6 @@
     color: white;
     padding-top: 40px;
     padding-bottom: 40px;
-    flex-wrap: wrap;
     margin-top: 25px;
 }
 
@@ -19,11 +18,11 @@
 }
 
 .content{
+    flex-wrap: wrap;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 40px;
 }
 
@@ -45,21 +44,29 @@
     font-size: 25px;
 }
 
+.image{
+    display: flex;
+    width: 600px;
+    margin-bottom: 63px;
+}
+
 .image > img{
     width: 100%;
-    display: flex;
+    height: auto;
+    border-radius: 10px;
 }
 
 .buttons {
     display: flex;
-    width: 90%;
+    position: absolute;
+    width: 95%;
+    align-self: flex-end;
     justify-content: space-between;
-    margin-top: 20px;
 }
 
 .button {
-    width: 43px;
-    height: 63px;
+    width: 2.75rem;
+    height: 4rem;
     display: flex;
     border-radius: 10px;
     border-bottom-color: #FFB800;
