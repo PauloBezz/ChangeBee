@@ -20,9 +20,22 @@
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    margin-top: 52px;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid grey;
+
 }
 
 .description {
