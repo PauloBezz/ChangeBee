@@ -16,12 +16,18 @@ export default function Partner() {
                 <Mercedes />
                 <Good />
             </article>
+
+            <div className={styles.more}>
+                <p>teste</p>
+            </div>
+
             <article className={styles.icons}>
                 <NuBank />
                 <Porto />
                 <Graal />
                 <Stanley />
             </article>
+
 
             <p className={styles.description}>Somos gratos por todas parcerias das estradas dessa vida e a gratidão de nossos amados clientes é um presente. Vamos viajar juntos ao novo e com felicidade.</p>
         </section>
