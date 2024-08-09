@@ -1,8 +1,6 @@
-# React + Vite
+# Site da ChangeBee, empresa de transporte
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi criado para desenvolvimento de minhas disciplinas de Front-End, primeiro pensei na ideia de uma transportadora de caminhão que tem como cliente pessoas ou empresas com a ideia de mudança ou mesmo estratégia de logistica.
+Em seguida, trabalhei no design do projeto e enfim a criação e aplicação de novas ferramentas ou renderização de dados. Atualmente criei com a biblioteca React JS, com ela se usa HTML, CSS e Javascript eisso tem me ajudado a fixar o conhecimento do curso de Web Designer.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Grato pela atenção
