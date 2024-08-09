@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-.container{
+.container {
     width: fit-content;
     height: 663px;
     display: flex;
@@ -12,7 +12,29 @@
     border-radius: 10px;
 }
 
-.title{
+
+
+.container:hover {
+    background-color: #FBA409;
+    padding: 38px 17px 20px 17px;
+    height: 663px;
+    color: #F1F1F1;
+
+    .btnContract:active {
+        background-color: #F1F1F1;
+        color: black;
+    }
+
+    .btnContract {
+        background-color: #595047;
+        color: #FBA409;
+    }
+
+
+
+}
+
+.title {
     font-size: 25px;
     font-family: 'PT Sans';
     font-style: italic;
@@ -20,13 +42,13 @@
     margin-bottom: 37px;
 }
 
-.image{
+.image {
     display: 400px;
     height: 225px;
     margin-bottom: 16px;
 }
 
-.list{
+.list {
     font-size: 25px;
     margin-bottom: 25px;
     font-family: 'PT Sans';
@@ -34,7 +56,7 @@
     font-size: 25px;
 }
 
-.price{
+.price {
     display: flex;
     margin-top: 24px;
     font-size: 40px;
@@ -43,7 +65,7 @@
 
 }
 
-.btnContract{
+.btnContract {
     display: flex;
     width: 305px;
     height: 61px;
