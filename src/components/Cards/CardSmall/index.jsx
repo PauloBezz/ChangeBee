@@ -9,6 +9,5 @@ export function CardSmall({ image, description }) {
             </div>
             <p className={styles.text}>{description}</p>
         </div>
-
     )
 }

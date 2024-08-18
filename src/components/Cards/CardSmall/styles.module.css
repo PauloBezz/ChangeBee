@@ -21,7 +21,8 @@
     background-color: #000;
     color: white;
     border: 2px solid #FFB800;
-
+    cursor: pointer;
+    
     .icon {
         background-color: aliceblue;
         border-radius: 5px;
