@@ -47,7 +47,7 @@
 .image{
     display: flex;
     width: 600px;
-    margin-bottom: 63px;
+    margin-bottom: -20px;
 }
 
 .image > img{
@@ -58,26 +58,23 @@
 
 .buttons {
     display: flex;
-    position: absolute;
     width: 95%;
     align-self: flex-end;
     justify-content: space-between;
 }
 
 .button {
+    display: flex;
     width: 2.75rem;
     height: 4rem;
-    display: flex;
     border-radius: 10px;
     border-bottom-color: #FFB800;
-    align-items: center;
-    justify-content: center;
     background-color: transparent;
 }
 
 .button:hover {
-    box-shadow: 0px 0px 10px black;
     cursor: pointer;
+    box-shadow: 0px 0px 10px black;
 }
 
 .carousel :first-child {
