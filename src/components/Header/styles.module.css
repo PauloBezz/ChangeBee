@@ -73,3 +73,13 @@
   align-self: end;
   margin-bottom: 11px;
 }
+
+@media screen and (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+}
