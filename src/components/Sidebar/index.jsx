@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom"
-import Video from "../Video"
-import ContentSmall from "../Cards/index"
 import styles from "./styles.module.css"
 
 export default function Sidebar() {
@@ -10,7 +8,7 @@ export default function Sidebar() {
         <Link className={styles.link} to={""}>
           Vantagens
         </Link>
-        <Link className={styles.link} to={<Video />}>
+        <Link className={styles.link} to={""}>
           Sonho
         </Link>
         <Link className={styles.link} to={""}>
@@ -23,7 +21,7 @@ export default function Sidebar() {
           Parceiros
         </Link>
       </nav>
-      <button><a href="">Mudar</a></button>
+      <button className="btnChange">Mudar</button>
     </div>
   )
 }

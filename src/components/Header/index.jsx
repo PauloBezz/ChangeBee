@@ -1,27 +1,29 @@
 import styles from "./styles.module.css";
 import logo from "./../../assets/logo.svg";
+import logoSmall from "./assets/icon-page.svg"
 import { Truck, TruckBlack } from "./../../assets/Button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import menu from '../../assets/menu.svg'
-
+import ContentSmall from "../Cards";
+import Sidebar from "../Sidebar";
 
 export function Header() {
   const [hovered, setHovered] = useState(false);
   const [visible, setVisible] = useState(false)
 
   const handleOpen = () => {
-    setVisible(visible);
+    setVisible(!visible);
   }
 
   return (
     <header className={styles.header}>
       <div className={styles.inline}>
-        <Link className={styles.logo} to={""} ><img src={logo} alt="logo" /></Link>
+        <Link className={styles.logo} target="self"><img src={logo} alt="Logo" /></Link>
+        <Link className={styles.logoSmall} target="self"><img src={logoSmall} alt="Logo Small" /></Link>
 
-        <div>
-          <img src={menu} alt="" />
-        </div>
+          <img src={menu} className={styles.btnMenu} alt="menu" title="Menu" onClick={handleOpen}/>
+
         {visible && (
           <Sidebar/>
         )}

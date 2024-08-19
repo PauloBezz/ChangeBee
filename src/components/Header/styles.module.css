@@ -31,6 +31,10 @@
   height: 60px;
 }
 
+.logoSmall {
+  display: none;
+}
+
 .nav {
   display: flex;
   width: 702px;
@@ -64,6 +68,10 @@
   z-index: 2;
 }
 
+.btnMenu {
+  display: none;
+}
+
 .line {
   display: flex;
   background-color: #FFB800;
@@ -74,12 +82,34 @@
   margin-bottom: 11px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+
+  .logo {
+    display: none;
+  }
+
+  .logoSmall {
+    display: flex;
+  }
+
+  .btnMenu {
+    display: flex;
+  }
+
+  .inline{
+    justify-content: space-between;
+    padding: 0px 22px;
+  }
+
   .nav {
     display: none;
   }
 
   .button {
     display: none;
+  }
+
+  .line{
+    margin-bottom:0px ;
   }
 }

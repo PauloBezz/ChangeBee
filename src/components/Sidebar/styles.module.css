@@ -1,7 +1,28 @@
 .container{
     position: absolute;
+    z-index: 10;
+    display: flex;
+    right: 0;
+    flex-direction: column;
+
+    width: 35%;
+    height: auto;
+    background-color: white;
+    align-self: baseline;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.menu{
     display: flex;
     flex-direction: column;
-    width: 100px;
-    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.btnChange{
+    display: flex;
+    width: 50px;
 }
