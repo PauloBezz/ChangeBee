@@ -9,7 +9,7 @@ import Stanley from './assets/img/svg/IconStanley'
 
 export default function Partner() {
     return (
-        <section className={styles.container}>
+        <section id='partner' className={styles.container}>
             <h1 className={styles.title}>Nossos parceiros de viagem</h1>
             <article className={styles.icons}>
                 <FourTruck />
