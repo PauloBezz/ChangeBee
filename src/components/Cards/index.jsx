@@ -60,7 +60,7 @@ export const PriceInfo = [
 
 export default function ContentSmall() {
     return (
-        <section className={styles.container}>
+        <section id='advantage' className={styles.container}>
             <article className={styles.cards}>
                 {SmallInfo.map((info, key) => {
                     return (
@@ -81,7 +81,7 @@ export default function ContentSmall() {
 
 export function ContentPrice() {
     return (
-        <section className={styles.containerPrice}>
+        <section id='price' className={styles.containerPrice}>
             <article className={styles.cardsPrice}>
                 {PriceInfo.map((index, key) => {
                     return (
