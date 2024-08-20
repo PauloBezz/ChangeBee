@@ -15,7 +15,7 @@ export const Costumer = ({ data }) => {
     }
 
     return (
-        <section className={styles.carousel}>
+        <section id='client' className={styles.carousel}>
             {data?.map((element, index) => {
                 const { title, description, image } = element;
                 return (
