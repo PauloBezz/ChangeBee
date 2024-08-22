@@ -42,10 +42,7 @@
     
 }
 
-
 /*   ContentPrice */
-
-
 
 .containerPrice{
     display: flex;
@@ -55,7 +52,7 @@
 
 .cardsPrice{
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
     background-color: #FEB702;
     border-radius: 20px;
@@ -63,5 +60,6 @@
     border: 2px solid black;
     padding: 40px 20px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 22px;
+
 }
