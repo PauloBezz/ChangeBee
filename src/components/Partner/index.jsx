@@ -6,8 +6,12 @@ import Porto from './assets/img/svg/IconPorto'
 import NuBank from './assets/img/svg/IconNubank'
 import Mercedes from './assets/img/svg/IconMercedes'
 import Stanley from './assets/img/svg/IconStanley'
+import { Info } from '../Info'
+import { brand } from '../../data/carousel.json'
+
 
 export default function Partner() {
+
     return (
         <section id='partner' className={styles.container}>
             <h1 className={styles.title}>Nossos parceiros de viagem</h1>
@@ -17,9 +21,7 @@ export default function Partner() {
                 <Good />
             </article>
 
-            <div className={styles.more}>
-                <p>teste</p>
-            </div>
+            <Info data={brand}/>
 
             <article className={styles.icons}>
                 <NuBank />
