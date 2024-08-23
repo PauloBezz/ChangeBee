@@ -19,13 +19,11 @@
             "title": "Fernando Borges - Curitiba",
             "description": "Sendo dono de negócio, vi vantagem em contratar para receber meus produtos com um melhor preço e menos dor de cabeça. Sempre ChangeBee.",
             "image": "https://media.istockphoto.com/id/866699668/pt/foto/gourmet-chef-cooking-in-a-commercial-kitchen.jpg?s=612x612&w=0&k=20&c=dOuGg8NcExnryOXVHpuXu3xy9l74TBukpGpQ09uzteI="
-
         },
         {
             "title": "Roberto Souza - Rio de Janeiro",
             "description": "Gratidão com a ChangeBee, estou satisfeito com todo o trabalho realizado nessa mudança e desejo sucesso para fazer história.",
             "image": "https://media.istockphoto.com/id/1359746925/pt/foto/portrait-of-a-handsome-successful-confident-young-mixed-race-latino-man-with-glasses-stylishly.jpg?s=612x612&w=0&k=20&c=iUBqey6DBEFN8rOMh3fS8o3gbj34Sh1lGlYL1ABfyOs="
-
         },
         {
             "title": "Ana Silva - Florianópolis",
@@ -36,6 +34,14 @@
             "title": "Antonio Melo - Caruaru",
             "description": "Você trabalham muito bem, como cliente registro que nessa empresa todo mundo faz o seu melhor. Obrigado ChangeBee",
             "image": "https://media.istockphoto.com/id/1133259122/pt/foto/portrait-of-brazilian-northeastern-cowboy-wearing-his-typical-leather-hat.jpg?s=612x612&w=0&k=20&c=s_VshOHycC5vPE6zjPzs4M9rpxodwlXpFMSyWr6ZOlo="
+        }
+    ],
+    "brand": [
+        {
+            "message": "A 4Tcruck é a responsável por cuidar e fabricar nossos baús e carrocerias. Cuidado do nosso meio de trabalho mostra que é uma parceira real",
+            "time": "Desde 2014",
+            "link": "https://www.4truck.com.br/",
+            "brandName":"4Truck"
         }
     ]
 }
