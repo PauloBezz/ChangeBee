@@ -8,16 +8,15 @@
     justify-content: space-around;
     background-color: #595047;
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 25px;
+    padding: 40px 0px;
+    margin-top: 110px;
 }
 
-.contentNone{
+.contentNone {
     display: none;
 }
 
-.content{
+.content {
     flex-wrap: wrap;
     width: 90%;
     display: flex;
@@ -31,26 +30,26 @@
     flex-direction: column;
     width: 582px;
     text-align: center;
+    margin-top: 156px;
     gap: 30px;
 }
 
-.text > h1 {
+.text>h1 {
     font-family: 'Bree Serif';
     font-size: 40px;
 }
 
-.text > p{
+.text>p {
     font-family: 'PT Sans';
     font-size: 25px;
 }
 
-.image{
+.image {
     display: flex;
     width: 600px;
-    margin-bottom: -20px;
 }
 
-.image > img{
+.image>img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -58,7 +57,7 @@
 
 .buttons {
     display: flex;
-    width: 95%;
+    width: 100%;
     align-self: flex-end;
     justify-content: space-between;
 }
