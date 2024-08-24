@@ -6,10 +6,11 @@
     background-color: transparent;
     border: 1px solid #FEB702;
     border-radius: 15px;
-    margin-top: 25px;
+    margin-top: 110px;
+
+    flex-wrap: wrap;
 
     gap: 35px;
-    flex-wrap:wrap ;
 }
 
 .cards {
@@ -26,31 +27,32 @@
 }
 
 @media screen and (max-width:1100px) {
-    .container{
+    .container {
         flex-direction: column;
         margin-top: 10px;
         padding: 29px 18px;
 
     }
 
-    .cards{
+    .cards {
         width: 100%;
     }
-    .banner{
+
+    .banner {
         width: 100%;
     }
-    
 }
 
 /*   ContentPrice */
 
-.containerPrice{
+.containerPrice {
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-top: 150px;
 }
 
-.cardsPrice{
+.cardsPrice {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -61,5 +63,4 @@
     padding: 40px 20px;
     flex-wrap: wrap;
     gap: 22px;
-
 }
