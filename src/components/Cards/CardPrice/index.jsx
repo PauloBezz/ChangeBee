@@ -5,7 +5,6 @@ export function CardPrice({ title, image, info, infoTwo, infoThree, infoFour, pr
         <article className={styles.container}>
             <h1 className={styles.title}>{title}</h1>
             <div className={styles.image}>{image}</div>
-
             <div className={styles.content}>
                 <div className={styles.list}>
                     <p>{info}</p>
