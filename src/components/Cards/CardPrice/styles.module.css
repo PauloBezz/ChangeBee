@@ -2,10 +2,9 @@
 
 
 .container {
-    height: 663px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 663px;
     background-color: #F1F1F1;
     padding: 38px 15px 20px 15px;
     border-radius: 10px;
@@ -46,10 +45,9 @@
     margin-bottom: 37px;
 }
 
-.image>img {
+.image {
     display: flex;
     width: 400px;
-    height: 225px;
     margin-bottom: 16px;
 }
 
@@ -63,12 +61,18 @@
     text-align: center;
 }
 
-.list {
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 32px;
+}
+
+.list > p{
+    width: 200px;
     font-size: 25px;
-    margin-bottom: 25px;
     font-family: 'PT Sans';
     font-style: italic;
-    font-size: 25px;
 }
 
 .price {
@@ -93,4 +97,45 @@
     font-size: 25px;
     margin-top: 27px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        height: 600px;
+        padding: 14px 7px 10px 7px;
+        border-radius: 10px;
+        height: fit-content;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .image {
+        width: 325px;
+        margin-bottom: 8px;
+    }
+
+    .content {
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        justify-content: space-around;
+    }
+
+    .list>p {
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 30px;
+    }
+
+    .btnContract {
+        width: 205px;
+        height: 41px;
+        font-size: 20px;
+        margin-top: 7px;
+    }
 }
