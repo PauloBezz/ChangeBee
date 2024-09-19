@@ -38,10 +38,53 @@
     ],
     "brand": [
         {
+            "id": 0,
             "message": "A 4Tcruck é a responsável por cuidar e fabricar nossos baús e carrocerias. Cuidado do nosso meio de trabalho mostra que é uma parceira real",
-            "time": "Desde 2014",
+            "time": "Desde 2014 no Brasil",
             "link": "https://www.4truck.com.br/",
-            "brandName":"4Truck"
+            "brandName": "4Truck"
+        },
+        {
+            "id": 1,
+            "message": "Criou o caminhão L-1113 além de ser o mais vendido no Brasil é o nosso querido, sendo a locutora de nosso sucesso como empresa.",
+            "time": "Desde 1956 no Brasil",
+            "link": "https://www2.mercedes-benz.com.br/",
+            "brandName": "Mercedes Benz"
+        },
+        {
+            "id": 2,
+            "message": "Usamos pneus da melhor qualidade e performance, tudo isso para viajar com a segurança atendendo todo o Brasil.",
+            "time": "Desde 1919 no Brasil",
+            "link": "https://pneuscaminhao.goodyear.com.br/",
+            "brandName": "Goodyear"
+        },
+        {
+            "id": 3,
+            "message": "A Nubank agiliza a compra do cafézinho do motorista até o jantar bem servido. Independente da maneira o roxinho sempre no bolso do caminhoneiro ChangeBee",
+            "time": "Desde 2013 no Brasil",
+            "link": "https://nubank.com.br/",
+            "brandName": "Nubank"
+        },
+        {
+            "id": 4,
+            "message": "Se tem um fato que deixa o sono tranquilo é saber que sua carga está assegurada, nossa viagens tem essa grande parceira lado a lado para seu bem estar.",
+            "time": "Desde 1945 no Brasil",
+            "link": "https://www.portoseguro.com.br/",
+            "brandName": "Porto Seguro"
+        },
+        {
+            "id": 5,
+            "message": "Nas paradas necessários a Rede Graal está sempre atendendo com toda alegria nosso pessoal, a gratidão vai da ida até a volta.",
+            "time": "Desde 1974 no Brasil",
+            "link": "https://www.redegraal.com.br/a-rede/",
+            "brandName": "Graal"
+        },
+        {
+            "id": 6,
+            "message": "Todos motoristas da ChangeBee ganha a garrafa térmica Stanley para suas viagens, de norte a sul não pode faltar essa companheira.",
+            "time": "Desde 2015 no Brasil",
+            "link": "https://www.4truck.com.br/",
+            "brandName": "Stanley"
         }
     ]
 }
