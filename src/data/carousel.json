@@ -12,7 +12,7 @@
         },
         {
             "title": "Tatiana Oliveira - São Paulo",
-            "description": "Entrega no prazo e equipe super cuidadosa, amei de verdade vocês me fizeram feliz. Valeu a pena escolher ChangeBee",
+            "description": "Entrega no prazo e equipe super cuidadosa, amei de verdade vocês me fizeram feliz. Valeu a pena escolher ChangeBee.",
             "image": "https://media.istockphoto.com/id/1289220545/pt/foto/beautiful-woman-smiling-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=J8IOft88XNXaMMjGBZUbbUVPPiDkxXO2uX5lxuWFRbM="
         },
         {
@@ -27,60 +27,64 @@
         },
         {
             "title": "Ana Silva - Florianópolis",
-            "description": "Eu não conhecia a ChangeBee, mas agora existe uma admiração pela mudança que levaram para a minha nova casa, começando com o pé direito",
+            "description": "Eu não conhecia a ChangeBee, mas agora existe uma admiração pela mudança que levaram para a minha nova casa, começando com o pé direito.",
             "image": "https://img.freepik.com/fotos-premium/linda-senhora-com-roupa-bege-descansando-no-terraco-e-segurando-o-telefone-encantadora-mulher-morena-de-blusa-branca-e-calcas-relaxando-na-varanda_197531-27484.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722470400&semt=ais_hybrid"
         },
         {
             "title": "Antonio Melo - Caruaru",
-            "description": "Você trabalham muito bem, como cliente registro que nessa empresa todo mundo faz o seu melhor. Obrigado ChangeBee",
+            "description": "Você trabalham muito bem, como cliente registro que nessa empresa todo mundo faz o seu melhor. Obrigado ChangeBee.",
             "image": "https://media.istockphoto.com/id/1133259122/pt/foto/portrait-of-brazilian-northeastern-cowboy-wearing-his-typical-leather-hat.jpg?s=612x612&w=0&k=20&c=s_VshOHycC5vPE6zjPzs4M9rpxodwlXpFMSyWr6ZOlo="
         }
     ],
     "brand": [
         {
             "id": 0,
-            "message": "A 4Tcruck é a responsável por cuidar e fabricar nossos baús e carrocerias. Cuidado do nosso meio de trabalho mostra que é uma parceira real",
+            "message": "Aqui você fica por dentro de quais parcerias de viagem temos."
+        },
+        {
+            "id": 1,
+            "message": "É a grande responsável por cuidar e fabricar nossos baús e carrocerias. Cuidado do nosso meio de trabalho mostra que é uma parceira real.",
             "time": "Desde 2014 no Brasil",
             "link": "https://www.4truck.com.br/",
             "brandName": "4Truck"
         },
         {
-            "id": 1,
+            "id": 2,
             "message": "Criou o caminhão L-1113 além de ser o mais vendido no Brasil é o nosso querido, sendo a locutora de nosso sucesso como empresa.",
             "time": "Desde 1956 no Brasil",
             "link": "https://www2.mercedes-benz.com.br/",
             "brandName": "Mercedes Benz"
         },
         {
-            "id": 2,
+            "id": 3,
             "message": "Usamos pneus da melhor qualidade e performance, tudo isso para viajar com a segurança atendendo todo o Brasil.",
             "time": "Desde 1919 no Brasil",
             "link": "https://pneuscaminhao.goodyear.com.br/",
             "brandName": "Goodyear"
         },
         {
-            "id": 3,
-            "message": "A Nubank agiliza a compra do cafézinho do motorista até o jantar bem servido. Independente da maneira o roxinho sempre no bolso do caminhoneiro ChangeBee",
+            "id": 4,
+            "message": "A Nubank agiliza a compra do cafézinho do motorista até o jantar bem servido. Independente da maneira o roxinho sempre no bolso do caminhoneiro.",
             "time": "Desde 2013 no Brasil",
             "link": "https://nubank.com.br/",
             "brandName": "Nubank"
         },
         {
-            "id": 4,
-            "message": "Se tem um fato que deixa o sono tranquilo é saber que sua carga está assegurada, nossa viagens tem essa grande parceira lado a lado para seu bem estar.",
+            "id": 5,
+            "message": "Um fato que deixa o sono tranquilo é saber que sua carga está assegurada, nossa viagens tem essa grande parceira lado a lado para seu bem estar.",
             "time": "Desde 1945 no Brasil",
             "link": "https://www.portoseguro.com.br/",
             "brandName": "Porto Seguro"
         },
         {
-            "id": 5,
+            "id": 6,
             "message": "Nas paradas necessários a Rede Graal está sempre atendendo com toda alegria nosso pessoal, a gratidão vai da ida até a volta.",
             "time": "Desde 1974 no Brasil",
             "link": "https://www.redegraal.com.br/a-rede/",
             "brandName": "Graal"
         },
         {
-            "id": 6,
+            "id": 7,
             "message": "Todos motoristas da ChangeBee ganha a garrafa térmica Stanley para suas viagens, de norte a sul não pode faltar essa companheira.",
             "time": "Desde 2015 no Brasil",
             "link": "https://www.4truck.com.br/",
