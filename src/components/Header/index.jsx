@@ -5,7 +5,6 @@ import { Truck, TruckBlack } from "./../../assets/Button";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import menu from '../../assets/menu.svg'
-import ContentSmall from "../Cards";
 import Sidebar from "../Sidebar";
 
 export function Header() {
