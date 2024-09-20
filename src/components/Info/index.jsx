@@ -6,9 +6,9 @@ export const Info = ({ data, current }) => {
 
     return (
         <section className={styles.container}>
-            <h1 key={id} className={styles.message}>{message}</h1>
+            <a href={link} className={styles.link}>{brandName} </a>
+            <h4 key={id} className={styles.message}>{message}</h4>
             <p className={styles.time}>{time}</p>
-            <a href={link}>{brandName}</a>
         </section>
     )
 }
