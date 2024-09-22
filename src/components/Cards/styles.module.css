@@ -16,6 +16,7 @@
 .cards {
     display: flex;
     width: 40%;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;

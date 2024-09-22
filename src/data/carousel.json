@@ -90,5 +90,23 @@
             "link": "https://www.4truck.com.br/",
             "brandName": "Stanley"
         }
+    ],
+    "banners": [
+        {
+            "id": 1,
+            "figure": "https://voiseguros.com.br/images/blog/seguro-de-carga02.jpg"
+        },
+        {
+            "id": 2,
+            "figure": "https://carrosecarangas.com.br/wp-content/uploads/2024/03/1-Caminhao-Mercedes-Benz-da-Copa-Truck.png"
+        },
+        {
+            "id": 3,
+            "figure": "https://metropoletransporte.com.br/wp-content/uploads/2021/07/mudanca-residencial-bh-metropole-1024x576.jpg"
+        },
+        {
+            "id": 4,
+            "figure": "https://dicas.olx.com.br/wp-content/uploads/2021/07/como-organizar-mudanca-residencial-olx.png"
+        }
     ]
 }

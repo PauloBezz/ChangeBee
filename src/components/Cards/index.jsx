@@ -7,23 +7,29 @@ import { Squad } from "./assets/images/svg/Squad"
 import TrYellow from './assets/images/svg/TruckYellow'
 import TrRed from './assets/images/svg/TruckRed'
 import TrWine from './assets/images/svg/TruckWine'
-import Banner from "../Banner"
+import { Banner } from '../Banner'
 import { CardPrice } from './CardPrice'
+import { useState } from 'react'
+import { banners } from '../../data/carousel.json'
 
 export const SmallInfo = [
     {
+        id: 1,
         image: <Shield />,
         description: 'Seguro contra roubo e com rastreio remoto'
     },
     {
+        id: 2,
         image: <Speed />,
         description: 'Tempo de carga e entrega com eficiência e rápidez'
     },
     {
+        id: 3,
         image: <Squad />,
         description: 'Equipe cautelosa e unida pela sua mudança'
     },
     {
+        id: 4,
         image: <Quality />,
         description: 'Qualidade nas caixas para o carregamento'
     }
@@ -59,21 +65,34 @@ export const PriceInfo = [
 
 
 export default function ContentSmall() {
+    const [visible, setVisible] = useState(false)
+    const [banner, setBanner] = useState(0);
+
+    const handleBanner = (index) => {
+        setBanner(index)
+    }
+
     return (
         <section id='advantage' className={styles.container}>
             <article className={styles.cards}>
-                {SmallInfo.map((info, key) => {
+                {SmallInfo.map((info, index) => {
                     return (
                         <CardSmall
-                            key={key}
+                            key={info.id}
+                            onClick={() => handleBanner(index)}
                             image={info.image}
-                            description={info.description} />
+                            description={info.description}
+                        />
                     )
                 })}
             </article>
 
             <article className={styles.banner}>
-                <Banner />
+                {
+                    !visible && (
+                        <Banner data={banners} current={banner} />
+                    )
+                }
             </article>
         </section>
     )
