@@ -1,13 +1,12 @@
 import styles from "./styles.module.css"
 
-export function CardSmall({ image, description }) {
-
+export function CardSmall({ id, onClick, image, description }) {
     return (
-        <div className={styles.container}>
+        <button className={styles.container} onClick={onClick} >
             <div className={styles.icon}>
                 {image}
             </div>
             <p className={styles.text}>{description}</p>
-        </div>
+        </button>
     )
 }
