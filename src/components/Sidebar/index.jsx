@@ -14,25 +14,27 @@ export default function Sidebar() {
   }
 
   return (
-    <div className={styles.container}>
-      <nav className={styles.menu}>
-        <Link className={styles.link} onClick={() => handleForSection("advantage")}>
-          Vantagens
-        </Link>
-        <Link className={styles.link} onClick={() => handleForSection("client")}>
-          Clientes
-        </Link>
-        <Link className={styles.link} onClick={() => handleForSection("video")}>
-          Sonho
-        </Link>
-        <Link className={styles.link} onClick={() => handleForSection("price")}>
-          Preços
-        </Link>
-        <Link className={styles.link} onClick={() => handleForSection("partner")}>
-          Parceiros
-        </Link>
-      </nav>
-      <button className="btnChange">Mudar</button>
-    </div>
+    <>
+      <div className={styles.container}>
+        <nav className={styles.menu}>
+          <Link className={styles.link} onClick={() => handleForSection("advantage")}>
+            Vantagens
+          </Link>
+          <Link className={styles.link} onClick={() => handleForSection("client")}>
+            Clientes
+          </Link>
+          <Link className={styles.link} onClick={() => handleForSection("video")}>
+            Sonho
+          </Link>
+          <Link className={styles.link} onClick={() => handleForSection("price")}>
+            Preços
+          </Link>
+          <Link className={styles.link} onClick={() => handleForSection("partner")}>
+            Parceiros
+          </Link>
+        </nav>
+      <button className={styles.btnChange}>Mudar</button>
+      </div>
+    </>
   )
 }
