@@ -13,7 +13,6 @@
   width: 100%;
   height: auto;
   padding-top: 10px;
-
   background-color: #4a4a4a;
   align-items: center;
 }
@@ -82,21 +81,13 @@
   margin-bottom: 11px;
 }
 
-@media screen and (max-width: 550px) {
-
-  .logo {
-    display: none;
-  }
-
-  .logoSmall {
-    display: flex;
-  }
+@media screen and (max-width: 800px) {
 
   .btnMenu {
     display: flex;
   }
 
-  .inline{
+  .inline {
     justify-content: space-between;
     padding: 0px 22px;
   }
@@ -109,7 +100,18 @@
     display: none;
   }
 
-  .line{
-    margin-bottom:0px ;
+  .line {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .logo {
+    display: none;
+  }
+
+  .logoSmall {
+    display: flex;
   }
 }
