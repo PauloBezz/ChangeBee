@@ -63,9 +63,7 @@ export const PriceInfo = [
     }
 ]
 
-
 export default function ContentSmall() {
-    const [visible, setVisible] = useState(false)
     const [banner, setBanner] = useState(0);
 
     const handleBanner = (index) => {
@@ -88,11 +86,7 @@ export default function ContentSmall() {
             </article>
 
             <article className={styles.banner}>
-                {
-                    !visible && (
-                        <Banner data={banners} current={banner} />
-                    )
-                }
+                <Banner data={banners} current={banner} />
             </article>
         </section>
     )
