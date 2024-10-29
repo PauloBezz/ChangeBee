@@ -1,12 +1,20 @@
+import { useState } from "react"
+import Plus, { PlusWhite } from "../assets/images/svg/Plus"
 import styles from "./styles.module.css"
 
-export function CardSmall({ id, onClick, image, description }) {
+export function CardSmall({ image, onClick, description }) {
+    const [color, setColor] = useState(false)
+
     return (
-        <button className={styles.container} onClick={onClick} >
+        <article className={styles.container}
+            onMouseEnter={() => { setColor(true) }}
+            onMouseLeave={() => { setColor(false) }}>
             <div className={styles.icon}>
                 {image}
             </div>
             <p className={styles.text}>{description}</p>
-        </button>
+            <button className={styles.plus} onClick={onClick}>
+                {color ? <PlusWhite /> : <Plus />}</button>
+        </article>
     )
 }
