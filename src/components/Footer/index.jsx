@@ -8,7 +8,7 @@ export function Footer() {
     const navigate = useNavigate();
 
     const handleAlert = () => {
-        alert("Desculpe, estamos sem vagas no momento, mas em breve abriremos processos para estágio fique por dentro pelo o Linkedin")
+        alert("Desculpe, no momento estamos sem vagas disponíveis. Em breve, abriremos processos seletivos para estágio. Fique por dentro através do nosso LinkedIn.")
     }
 
     const handleForScroll = (idLink) => {
@@ -29,8 +29,8 @@ export function Footer() {
                 <a onClick={() => handleForScroll("video")}>Sobre nós</a>
                 <div className={styles.icons}>
                     <Link to={'https://play.google.com/store/search?q=whatsapp&c=apps&hl=pt_BR'}><Whats /></Link>
-                    <Link to={'https://www.instagram.com/top_truck_caminhoes/'}><Insta /></Link>
-                    <Link to={'https://www.facebook.com/MercedesBenz/?locale=pt_BR'}><Face /></Link>
+                    <Link to={'https://www.instagram.com'}><Insta /></Link>
+                    <Link to={'https://www.facebook.com'}><Face /></Link>
                 </div>
             </article>
             <article className={styles.text}>
