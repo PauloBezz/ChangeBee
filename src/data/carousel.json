@@ -39,7 +39,7 @@
     "brand": [
         {
             "id": 0,
-            "message": "Aqui você fica por dentro de quais parcerias de viagem temos."
+            "message": "Aqui, você fica por dentro de nossas parcerias de viagem."
         },
         {
             "id": 1,
@@ -94,19 +94,23 @@
     "banners": [
         {
             "id": 1,
-            "figure": "https://www.garbuio.com.br/wp-content/uploads/2024/04/seguro-de-cargas-brasil.jpg"
+            "figure": "https://www.garbuio.com.br/wp-content/uploads/2024/04/seguro-de-cargas-brasil.jpg",
+            "description": "Carga segura para sua tranquilidade, evitando qualquer preocupação com danos ou perdas."
         },
         {
             "id": 2,
-            "figure": "https://carrosecarangas.com.br/wp-content/uploads/2024/03/1-Caminhao-Mercedes-Benz-da-Copa-Truck.png"
+            "figure": "https://carrosecarangas.com.br/wp-content/uploads/2024/03/1-Caminhao-Mercedes-Benz-da-Copa-Truck.png",
+            "description": "Sempre dentro do prazo, pois prezamos por escolher o melhor recurso para o trabalho."
         },
         {
             "id": 3,
-            "figure": "https://metropoletransporte.com.br/wp-content/uploads/2021/07/mudanca-residencial-bh-metropole-1024x576.jpg"
+            "figure": "https://metropoletransporte.com.br/wp-content/uploads/2021/07/mudanca-residencial-bh-metropole-1024x576.jpg",
+            "description": "Nossa equipe operacional zela pela mercadoria, garantindo proteção contra danos e perdas."
         },
         {
             "id": 4,
-            "figure": "https://dicas.olx.com.br/wp-content/uploads/2021/07/como-organizar-mudanca-residencial-olx.png"
+            "figure": "https://revista.icasei.com.br/wp-content/uploads/2019/04/mudanca_casa_nova_2.jpg",
+            "description": "Guarde tudo o que é seu em nossas caixas; não queremos que você deixe nada para trás."
         }
     ]
 }
