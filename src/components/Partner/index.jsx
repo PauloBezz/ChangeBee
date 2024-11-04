@@ -47,7 +47,7 @@ export default function Partner() {
             </article>
 
 
-            <p className={styles.description}>Somos gratos por todas parcerias das estradas desta vida e a gratidão de nossos amados clientes é um presente. Vamos viajar juntos ao novo e com felicidade.</p>
+            <p className={styles.description}>Somos gratos por todas as parcerias que construímos ao longo desta jornada. A gratidão de nossos queridos clientes é um presente valioso. Vamos juntos explorar o novo com alegria e entusiasmo.</p>
         </section>
     )
 }
