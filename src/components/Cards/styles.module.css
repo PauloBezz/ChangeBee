@@ -21,6 +21,7 @@
 }
 
 .banner {
+    justify-content: space-around;
     display: flex;
     width: 55%;
 }
