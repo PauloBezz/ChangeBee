@@ -1,11 +1,15 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home/index.jsx";
+import { Login } from "../pages/Login/index.jsx"
+// import { Erro } from "../pages/Erro/index.jsx"
 
 export default function Router() {
   return (
     <BrowserRouter>
       <Routes>
         <Route Component={Home} path="/"/>
+        <Route Component={Login} path="/login"/>
+        {/* <Route Component={Erro} path="*"/> */}
       </Routes>
     </BrowserRouter>
   );
