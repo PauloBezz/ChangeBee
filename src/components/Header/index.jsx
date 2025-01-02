@@ -56,7 +56,7 @@ export function Header() {
           </Link>
         </nav>
 
-        <Link className={styles.button} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+        <Link className={styles.button} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} to={"/login"} >
           {hovered ? <TruckBlack /> : <Truck />}
         </Link>
       </div>
