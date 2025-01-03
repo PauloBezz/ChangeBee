@@ -13,10 +13,10 @@ Em seguida, trabalhei no design do projeto e na criação e aplicação de novas
 - Login para clientes
 - Sessões de vantagens, parceiros, clientes, preços e vídeo sobre a empresa.
 
-  #Futuras implementações
-  - Página de vagas
-  - Página de pagamento
-  - Pesquisa de CEP
+#Futuras implementações
+- Página de vagas
+- Página de pagamento
+- Pesquisa de CEP
 
 #Conclusão
 Com o tempo adaptei ideias e personalizei de maneira agradável para o usuário compreender a mecânica. Continuo estudando para melhorar e encorpar mais o site. Aprendi mais o uso de dado mocado e o próximo passo será API para outros projetos, sendo esse um importante ponto de partida.
