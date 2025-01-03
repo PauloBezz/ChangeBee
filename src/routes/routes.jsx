@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home/index.jsx";
 import { Login } from "../pages/Login/index.jsx"
-// import { Erro } from "../pages/Erro/index.jsx"
+import { ErrorPage } from "../pages/ErrorPage/index.jsx"
 
 export default function Router() {
   return (
@@ -9,7 +9,7 @@ export default function Router() {
       <Routes>
         <Route Component={Home} path="/"/>
         <Route Component={Login} path="/login"/>
-        {/* <Route Component={Erro} path="*"/> */}
+        <Route Component={ErrorPage} path="*"/>
       </Routes>
     </BrowserRouter>
   );

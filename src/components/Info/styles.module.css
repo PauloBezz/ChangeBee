@@ -19,6 +19,9 @@
     cursor: pointer;
     font-weight: bold;
     text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .message {
