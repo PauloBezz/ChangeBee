@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Cambo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 .container {
     display: flex;
     flex-direction: column;
     height: fit-content;
-    background-color: #FDB602;
+    background-color: #FFD15B;
 
     align-items: center;
     margin-top: 12px;
     margin-bottom: 12px;
     text-decoration: none;
     padding: 16px 0px;
-    font-family: "Cambo";
+    font-family: "PT Sans";
+    font-weight: 600;
     gap: 24px;
 }
 
