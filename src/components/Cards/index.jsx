@@ -71,7 +71,7 @@ export default function ContentSmall() {
     }
 
     return (
-        <section id='advantage' className={styles.container}>
+        <main id='advantage' className={styles.container}>
             <article className={styles.cards}>
                 {SmallInfo.map((info, index) => {
                     return (
@@ -88,7 +88,7 @@ export default function ContentSmall() {
             <article className={styles.banner}>
                 <Banner data={banners} current={banner} />
             </article>
-        </section>
+        </main>
     )
 }
 
