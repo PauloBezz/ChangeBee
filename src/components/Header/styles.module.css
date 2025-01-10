@@ -85,6 +85,8 @@
 
   .btnMenu {
     display: flex;
+    cursor: pointer;
+    align-items: center;
   }
 
   .inline {
