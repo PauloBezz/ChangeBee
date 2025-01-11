@@ -6,7 +6,7 @@ export const Banner = ({ data, current }) => {
 
     return (
         <article className={styles.container}>
-            <h1>Antes do pé na estrada têm vantagens!</h1>
+            <h1>Antes de estradar têm vantagens!</h1>
             <img className={styles.figure} src={figure} />
             <p className={styles.text}>{description}</p>
         </article>
