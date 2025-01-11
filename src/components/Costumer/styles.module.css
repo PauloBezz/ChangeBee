@@ -83,3 +83,57 @@
 .carousel :last-child {
     border-right-color: #FFB800;
 }
+
+@media screen and (max-width:600px) {
+    .carousel {
+        width: 100%;
+        padding: 20px 0px;
+        margin-top: 30px;
+    }
+
+    .content {
+        flex-wrap: wrap;
+        width: 95%;
+        display: flex;
+        gap: 40px;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 18px;
+        gap: 30px;
+    }
+    
+    .text>h1 {
+        font-family: 'Bree Serif';
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .text>p {
+        text-align: justify;
+        font-family: 'PT Sans';
+        font-size: 12px;
+    }
+    
+    .image>img {
+        border-radius: 2px;
+    }
+
+    .buttons {
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .button {
+        border-radius: 6px;
+        border-color: white;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 10px black;
+    }
+}
