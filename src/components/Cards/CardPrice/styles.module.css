@@ -5,8 +5,10 @@
     display: flex;
     flex-direction: column;
     height: 663px;
+    align-items: center;
+    text-align: center;
     background-color: #F1F1F1;
-    padding: 38px 15px 20px 15px;
+    padding: 18px 15px 20px 15px;
     border-radius: 10px;
 }
 
@@ -19,15 +21,17 @@
         color: black;
     }
 
-    .price {
-        font-size: 45px;
-        color: black;
-    }
 
     .title {
         text-transform: uppercase;
         font-style: normal;
         font-weight: 700;
+        color: black;
+    }
+
+    .price {
+        color: black;
+        font-weight: 900;
     }
 
     .btnContract {
@@ -38,7 +42,7 @@
 }
 
 .title {
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'PT Sans';
     font-style: italic;
     font-size: 25px;
@@ -47,7 +51,7 @@
 
 .image {
     display: flex;
-    width: 400px;
+    max-width: 100%;
     margin-bottom: 16px;
 }
 
@@ -58,17 +62,15 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
 }
 
-.list{
+.list {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding-left: 32px;
+    text-align: start;
 }
 
-.list > p{
+.list>p {
     width: 200px;
     font-size: 25px;
     font-family: 'PT Sans';
@@ -79,6 +81,7 @@
     font-size: 40px;
     font-family: 'Bree serif';
     color: #595047;
+    font-weight: 400;
 }
 
 .btnContract {
@@ -101,7 +104,8 @@
 
 @media screen and (max-width: 600px) {
     .container {
-        height: 600px;
+        width: 100%;
+        max-width: 400px;
         padding: 14px 7px 10px 7px;
         border-radius: 10px;
         height: fit-content;
@@ -113,7 +117,6 @@
     }
 
     .image {
-        width: 325px;
         margin-bottom: 8px;
     }
 
@@ -125,7 +128,7 @@
     }
 
     .list>p {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .price {

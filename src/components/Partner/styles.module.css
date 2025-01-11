@@ -43,14 +43,14 @@
     font-family: 'Cabin';
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     .container {
         padding: 20px 20px;
     }
 
     .title {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .icons {

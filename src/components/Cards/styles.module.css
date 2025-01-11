@@ -43,6 +43,26 @@
     }
 }
 
+
+
+@media screen and (max-width:700px) {
+
+    .container {
+        width: 100%;
+        border: 2px solid #FEB702;
+        border-left: 0px;
+        border-right: 0px;
+        border-radius: 0px;
+
+        margin-top: 50px;
+        padding: 20px 0px;
+    }
+
+}
+
+
+
+
 /*   ContentPrice */
 
 .containerPrice {
@@ -56,11 +76,24 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color: #FEB702;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #554F4F;
     border: 2px solid black;
-    padding: 40px 20px;
+    padding: 20px 10px;
     flex-wrap: wrap;
     gap: 22px;
+}
+
+@media screen and (max-width:600px) {
+    .containerPrice {
+        margin-top: 70px;
+    }
+
+    .cardsPrice {
+        border-radius: 0px;
+        background-color: #554F4F;
+        border: 0px;
+        padding: 20px 10px;
+        gap: 8px;
+    }
 }

@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
 import styles from './styles.module.css'
-import ArrowL from './assets/img/svg/ArrowLeft'
-import ArrowR from './assets/img/svg/ArrowRight'
+import React, { useState } from 'react'
+import ArrowL from './assets/svg/ArrowLeft'
+import ArrowR from './assets/svg/ArrowRight'
 
 export const Costumer = ({ data }) => {
     const [slide, setSlide] = useState(0);

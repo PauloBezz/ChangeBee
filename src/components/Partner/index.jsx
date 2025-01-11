@@ -25,7 +25,7 @@ export default function Partner() {
     }
 
     return (
-        <section id='partner' className={styles.container}>
+        <main id='partner' className={styles.container}>
             <h1 className={styles.title}>Nossos parceiros de viagem</h1>
 
             <article className={styles.icons} >
@@ -48,6 +48,6 @@ export default function Partner() {
 
 
             <p className={styles.description}>Somos gratos por todas as parcerias que construímos ao longo desta jornada. A gratidão de nossos queridos clientes é um presente valioso. Vamos juntos explorar o novo com alegria e entusiasmo.</p>
-        </section>
+        </main>
     )
 }

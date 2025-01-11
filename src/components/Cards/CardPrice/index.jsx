@@ -13,11 +13,11 @@ export function CardPrice({ title, image, info, infoTwo, infoThree, infoFour, pr
                     <p>{infoFour}</p>
                 </div>
 
+            </div>
                 <div>
                     <h2 className={styles.price}>{price}</h2>
                     <button className={styles.btnContract}>Contratar</button>
                 </div>
-            </div>
         </article>
     )
 }

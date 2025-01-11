@@ -95,7 +95,7 @@
         {
             "id": 1,
             "figure": "https://www.garbuio.com.br/wp-content/uploads/2024/04/seguro-de-cargas-brasil.jpg",
-            "description": "Carga segura para sua tranquilidade, evitando qualquer preocupação com danos ou perdas."
+            "description": "Carga segura para sua tranquilidade, evitando qualquer preocupação com furtos."
         },
         {
             "id": 2,
@@ -110,7 +110,7 @@
         {
             "id": 4,
             "figure": "https://revista.icasei.com.br/wp-content/uploads/2019/04/mudanca_casa_nova_2.jpg",
-            "description": "Guarde tudo o que é seu em nossas caixas; não queremos que você deixe nada para trás."
+            "description": "Guarde tudo o que é seu em nossas caixas, não queremos que deixe nada para trás."
         }
     ]
 }
