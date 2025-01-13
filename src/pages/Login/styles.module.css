@@ -86,7 +86,7 @@
     font-size: 12px;
 }
 
-.btnLogin {
+.btnEvent {
     margin-top: 50px;
     width: 200px;
     height: 36px;
@@ -99,12 +99,12 @@
     cursor: pointer;
 }
 
-.btnLogin:hover {
+.btnEvent:hover {
     background-color: grey;
     font-weight: 700;
 }
 
-.btnLogin:active {
+.btnEvent:active {
     background-color: black;
 }
 
@@ -157,7 +157,7 @@
         font-size: 16px;
     }
 
-    .btnLogin {
+    .btnEvent {
         margin-top: 40px;
     }
 }
