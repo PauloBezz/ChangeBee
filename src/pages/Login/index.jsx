@@ -1,13 +1,15 @@
 import styles from "./styles.module.css"
 import { useState } from "react"
-import { Link, Navigate, useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 export function Login() {
 
     const [email, setEmail] = useState('')
     const [pass, setPass] = useState('')
+    const navigate = useNavigate()
 
     async function handleEmail() {
+        navigate('/')
         return (
             console.log(`Usuário ${email} autorizado`)
         )
@@ -20,7 +22,7 @@ export function Login() {
                     <h1>Login</h1>
                     <div className={styles.subtitle}>
                         <h3>Não tem conta?</h3>
-                        <Link to={''}>Clique aqui</Link>
+                        <Link to={'/register'}>Clique aqui</Link>
                     </div>
                 </article>
 
@@ -36,7 +38,7 @@ export function Login() {
                         <Link>Esqueceu a senha?</Link>
                     </article>
                 </div>
-                <button className={styles.btnLogin} onClick={handleEmail}>
+                <button className={styles.btnEvent} onClick={handleEmail}>
                     Acessar
                 </button>
             </form>
@@ -51,14 +53,13 @@ export function Register() {
     const [confpass, setConfpass] = useState('')
     const navigate = useNavigate()
 
-
     const handleCreate = () => {
         navigate('/register')
     }
 
     return (
-        <main>
-            <form>
+        <main className={styles.container}>
+            <form className={styles.content}>
                 <article className={styles.title}>
                     <h1>Registro</h1>
                 </article>
@@ -85,7 +86,7 @@ export function Register() {
                         <Link>Já tenho conta</Link>
                     </article>
                 </div>
-                <button className={styles.btnCreate} onClick={handleCreate}>
+                <button className={styles.btnEvent} onClick={handleCreate}>
                     Criar conta
                 </button>
             </form>
