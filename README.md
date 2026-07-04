@@ -1,48 +1,69 @@
-🚀 ChangeBee — Transportadora Simulada
+# 🚀 ChangeBee - Transportadora Simulada
 
-O ChangeBee é um projeto desenvolvido como parte dos estudos em Front-End Development, com foco em prática de interface, componentização e organização de aplicações web.
+Projeto desenvolvido com foco em prática de **Front-End Development**, simulando uma transportadora de mudanças e logística.
 
-A ideia central do projeto é simular uma transportadora voltada para mudanças residenciais e soluções logísticas, permitindo a criação de uma experiência de navegação completa para o usuário.
+---
 
-🎯 Objetivo do Projeto
+## 🎯 Sobre o projeto
 
-O projeto foi criado com o intuito de consolidar conhecimentos em desenvolvimento web, especialmente no ecossistema React JS, aplicando conceitos de:
+O ChangeBee foi criado para aplicar conceitos de desenvolvimento web utilizando **React JS**, com foco em componentização, layout responsivo e organização de interface.
 
-Componentização
-Reutilização de código
-Estilização com CSS Modules
-Navegação entre páginas (React Router)
-Estruturação de layout responsivo
-🛠️ Tecnologias Utilizadas
-Figma (prototipação de interface)
-HTML5
-CSS3
-JavaScript (ES6+)
-React JS
-React Router
-CSS Modules
-🧩 Funcionalidades do Projeto
-Página inicial com apresentação da empresa simulada
-Seções informativas:
-Vantagens
-Clientes
-Preços
-Parceiros
-Vídeo institucional
-Sistema de navegação com scroll entre seções
-Estrutura de autenticação (Login / Registro / Recuperação de senha)
-Layout responsivo para diferentes dispositivos
-📌 Futuras Implementações
-Integração com API de cálculo de frete
-Sistema de autenticação real (JWT)
-Página de vagas (carreiras)
-Sistema de pagamento simulado
-Consulta de CEP e estimativa de entrega
-Banco de dados para clientes
-🧠 Conclusão
+A ideia é simular uma empresa de transportes, com páginas informativas e navegação fluida entre seções.
 
-Este projeto serviu como base prática para aprofundamento em React JS e desenvolvimento de interfaces modernas.
+---
 
-Ao longo do desenvolvimento, foram aplicados conceitos de UI/UX, estruturação de componentes e manipulação de estado. Também foi possível entender melhor o uso de dados mockados e a importância da organização de código em aplicações reais.
+## 🛠️ Tecnologias utilizadas
 
-O próximo passo do projeto será a integração com APIs externas e a evolução para um sistema mais próximo de uma aplicação real.
+- Figma (UI/UX Design)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React JS
+- React Router
+- CSS Modules
+
+---
+
+## 🧩 Funcionalidades
+
+- Página inicial com apresentação da empresa
+- Seções informativas:
+  - Vantagens
+  - Clientes
+  - Preços
+  - Parceiros
+  - Vídeo institucional
+- Navegação com scroll entre seções
+- Sistema de login, registro e recuperação de senha (frontend)
+- Layout responsivo
+
+---
+
+## 🚀 Futuras melhorias
+
+- Integração com API de cálculo de frete
+- Sistema de autenticação com backend (JWT)
+- Página de vagas
+- Sistema de pagamento simulado
+- Consulta de CEP e estimativa de entrega
+- Banco de dados para usuários
+
+---
+
+## 🧠 Aprendizados
+
+Este projeto ajudou a reforçar conceitos importantes de:
+
+- Componentização no React
+- Manipulação de estado
+- Estruturação de layout
+- Consumo de APIs (futuro)
+- Organização de projetos front-end
+
+---
+
+## 📌 Conclusão
+
+O ChangeBee representa uma evolução prática nos estudos de desenvolvimento web, servindo como base para futuras integrações com backend e APIs reais.
+
+---
