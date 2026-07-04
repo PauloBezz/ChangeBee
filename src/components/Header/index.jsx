@@ -1,61 +1,96 @@
 import styles from "./styles.module.css";
 import logo from "./../../assets/logo.svg";
-import logoSmall from "./assets/icon-page.svg"
+import logoSmall from "./assets/icon-page.svg";
 import { Truck, TruckBlack } from "./../../assets/Button";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import menu from './assets/menu.svg'
+import menu from "./assets/menu.svg";
 import Sidebar from "../Sidebar";
 
 export function Header() {
   const [hovered, setHovered] = useState(false);
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(false);
   const navigate = useNavigate();
 
   const handleOpen = () => {
     setVisible(!visible);
-  }
+  };
 
   const handleForScroll = (idLink) => {
     navigate("/");
-    const subLink = document.getElementById(idLink)
+
+    const subLink = document.getElementById(idLink);
+
     if (subLink) {
-      subLink.scrollIntoView({ behavior: "smooth" });
-      handleOpen();
-    } else {
-      alert('Algo errado aconteceu!')
+      subLink.scrollIntoView({
+        behavior: "smooth",
+        block: "center",
+      });
+
+      if (visible) {
+        setVisible(false);
+      }
     }
-  }
+  };
 
   return (
     <>
       <header className={styles.header}>
         <div className={styles.inline}>
-          <Link className={styles.logo} target="self"><img src={logo} alt="Logo" /></Link>
-          <Link className={styles.logoSmall} target="self"><img src={logoSmall} alt="Logo Small" /></Link>
+          <Link className={styles.logo} target="self">
+            <img src={logo} alt="Logo" />
+          </Link>
+          <Link className={styles.logoSmall} target="self">
+            <img src={logoSmall} alt="Logo Small" />
+          </Link>
 
-          <img src={menu} className={styles.btnMenu} alt="menu" title="Menu" onClick={handleOpen} />
-
+          <img
+            src={menu}
+            className={styles.btnMenu}
+            alt="menu"
+            title="Menu"
+            onClick={handleOpen}
+          />
 
           <nav className={styles.nav}>
-            <Link className={styles.link} onClick={() => handleForScroll("advantage")}>
+            <Link
+              className={styles.link}
+              onClick={() => handleForScroll("advantage")}
+            >
               Vantagens
             </Link>
-            <Link className={styles.link} onClick={() => handleForScroll("client")}>
+            <Link
+              className={styles.link}
+              onClick={() => handleForScroll("client")}
+            >
               Clientes
             </Link>
-            <Link className={styles.link} onClick={() => handleForScroll("video")}>
+            <Link
+              className={styles.link}
+              onClick={() => handleForScroll("video")}
+            >
               Sonho
             </Link>
-            <Link className={styles.link} onClick={() => handleForScroll("price")}>
+            <Link
+              className={styles.link}
+              onClick={() => handleForScroll("price")}
+            >
               Preços
             </Link>
-            <Link className={styles.link} onClick={() => handleForScroll("partner")}>
+            <Link
+              className={styles.link}
+              onClick={() => handleForScroll("partner")}
+            >
               Parceiros
             </Link>
           </nav>
 
-          <Link className={styles.button} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} to={"/login"} >
+          <Link
+            className={styles.button}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+            to={"/login"}
+          >
             {hovered ? <TruckBlack /> : <Truck />}
           </Link>
         </div>

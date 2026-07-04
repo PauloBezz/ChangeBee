@@ -10,13 +10,14 @@
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 134px;
+  gap: 5px;
 }
 
 .title {
-  font-family: "Bree";
+  font-family: "Bree Serif", serif;
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .video {
