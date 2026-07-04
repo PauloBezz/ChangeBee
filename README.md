@@ -1,22 +1,48 @@
-# ChangeBee - Transportadora Simulada
+🚀 ChangeBee — Transportadora Simulada
 
-Esse projeto foi criado para o desenvolvimento de minhas disciplinas de Front-End, primeiro pensei na ideia de uma transportadora de caminhão que tem como cliente pessoas ou empresas com a ideia de mudança ou mesmo estratégia de logistica.
-Em seguida, trabalhei no design do projeto e na criação e aplicação de novas ferramentas ou renderização de dados. Atualmente criei com a biblioteca React JS, com ela se usa HTML, CSS e Javascript e isso tem me ajudado a fixar o conhecimento do curso de Web Designer.
+O ChangeBee é um projeto desenvolvido como parte dos estudos em Front-End Development, com foco em prática de interface, componentização e organização de aplicações web.
 
-# Ferramentas
-- Figma
-- HTML, CSS, Javascript - React JS
-- CSS Modules
+A ideia central do projeto é simular uma transportadora voltada para mudanças residenciais e soluções logísticas, permitindo a criação de uma experiência de navegação completa para o usuário.
 
-# Ideais do site
-- Página com design de transportadora e as cores de uma abelha
-- Login para clientes
-- Sessões de vantagens, parceiros, clientes, preços e vídeo sobre a empresa.
+🎯 Objetivo do Projeto
 
-# Futuras implementações
-- Página de vagas
-- Página de pagamento
-- Pesquisa de CEP
+O projeto foi criado com o intuito de consolidar conhecimentos em desenvolvimento web, especialmente no ecossistema React JS, aplicando conceitos de:
 
-# Conclusão
-Com o tempo adaptei ideias e personalizei de maneira agradável para o usuário compreender a mecânica. Continuo estudando para melhorar e encorpar mais o site. Aprendi mais o uso de dado mocado e o próximo passo será API para outros projetos, sendo esse um importante ponto de partida.
+Componentização
+Reutilização de código
+Estilização com CSS Modules
+Navegação entre páginas (React Router)
+Estruturação de layout responsivo
+🛠️ Tecnologias Utilizadas
+Figma (prototipação de interface)
+HTML5
+CSS3
+JavaScript (ES6+)
+React JS
+React Router
+CSS Modules
+🧩 Funcionalidades do Projeto
+Página inicial com apresentação da empresa simulada
+Seções informativas:
+Vantagens
+Clientes
+Preços
+Parceiros
+Vídeo institucional
+Sistema de navegação com scroll entre seções
+Estrutura de autenticação (Login / Registro / Recuperação de senha)
+Layout responsivo para diferentes dispositivos
+📌 Futuras Implementações
+Integração com API de cálculo de frete
+Sistema de autenticação real (JWT)
+Página de vagas (carreiras)
+Sistema de pagamento simulado
+Consulta de CEP e estimativa de entrega
+Banco de dados para clientes
+🧠 Conclusão
+
+Este projeto serviu como base prática para aprofundamento em React JS e desenvolvimento de interfaces modernas.
+
+Ao longo do desenvolvimento, foram aplicados conceitos de UI/UX, estruturação de componentes e manipulação de estado. Também foi possível entender melhor o uso de dados mockados e a importância da organização de código em aplicações reais.
+
+O próximo passo do projeto será a integração com APIs externas e a evolução para um sistema mais próximo de uma aplicação real.
